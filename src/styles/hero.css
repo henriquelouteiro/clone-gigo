@@ -1,0 +1,16 @@
+.bg-input-transparent {
+    background-color: transparent;
+    border-color: transparent;
+    
+}
+
+.bg-input-transparent:focus{
+    background-color: transparent;
+    border-color: transparent;
+    
+}
+
+.bg-input {
+    border-radius: 100px;
+    background-color: #16182d;
+}

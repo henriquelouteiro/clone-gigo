@@ -3,11 +3,14 @@ import {
   Container,
   Row,
   Col,
+  Button,
+  Input,
   Carousel,
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
   CarouselCaption,
+  InputGroup,
 } from "reactstrap";
 
 import Image from "next/image";
@@ -73,7 +76,7 @@ const Hero = (args) => {
               <h1 className="mb-4 text-light font-size-large">
                 Blockchain Games and the Metaverse
               </h1>
-              <div className="d-flex gap-3 intro-btn">
+              <div className="d-flex gap-3 intro-btn mb-4">
                 <a
                   href="#"
                   className="btn btn-primary btn-lg "
@@ -90,6 +93,26 @@ const Hero = (args) => {
                 >
                   KYC for IDO
                 </a>
+              </div>
+
+              <InputGroup className="mb-4 bg-input p-2 ">
+                <Input className="bg-input-transparent" />
+                <Image src="/images/icons/search.svg" width={27} height={27} />
+              </InputGroup>
+
+              <div className="d-flex mb-4 gap-3">
+                <Image
+                  src="/images/icons/facebook.svg"
+                  width={27}
+                  height={27}
+                />
+                <Image src="/images/icons/twitter.svg" width={27} height={27} />
+                <Image
+                  src="/images/icons/telegram.svg"
+                  width={27}
+                  height={27}
+                />
+                <Image src="/images/icons/discord.svg" width={27} height={27} />
               </div>
             </div>
           </Col>
